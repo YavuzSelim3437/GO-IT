@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #1F1F3D;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        header .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #4A90E2;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background: #f4f4f4;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 10px;
+        }
+
+        .section-features {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 20px;
+        }
+
+        .feature {
+            text-align: center;
+            max-width: 200px;
+        }
+
+        .section-team {
+            text-align: center;
+            padding: 40px 20px;
+            background: #FAF7FD;
+        }
+
+        .team-members {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .team-member {
+            text-align: center;
+            max-width: 150px;
+        }
+
+        footer {
+            background: #1F1F3D;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>WEBSTUDIO</div>
+        <div>
+            <a href="#">Studio</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contacts</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Effective Solutions for Your Business</h1>
+        <a href="#" class="button">Order Service</a>
+    </header>
+
+    <section class="section-features">
+        <div class="feature">
+            <h3>Strategy</h3>
+            <p>Our goal is to identify the business problem and create a perfect, creative solution.</p>
+        </div>
+        <div class="feature">
+            <h3>Punctuality</h3>
+            <p>We deliver the best results in the shortest time possible.</p>
+        </div>
+        <div class="feature">
+            <h3>Diligence</h3>
+            <p>Research and confirm brands that present the strongest opportunities and minimize risk.</p>
+        </div>
+        <div class="feature">
+            <h3>Technologies</h3>
+            <p>Focused on digital experiences with a deep passion for problem-solving.</p>
+        </div>
+    </section>
+
+    <section class="section-team">
+        <h2>Our Team</h2>
+        <div class="team-members">
+            <div class="team-member">
+                <img src="https://via.placeholder.com/100" alt="Mark Guerrero">
+                <h4>Mark Guerrero</h4>
+                <p>Product Designer</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/100" alt="Tom Ford">
+                <h4>Tom Ford</h4>
+                <p>Frontend Developer</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/100" alt="Camila Garcia">
+                <h4>Camila Garcia</h4>
+                <p>Marketing</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/100" alt="Daniel Wilson">
+                <h4>Daniel Wilson</h4>
+                <p>UI Designer</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>WEBSTUDIO &copy; Increase the flow of customers with digital solutions</p>
+    </footer>
+</body>
+</html>
